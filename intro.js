@@ -25,15 +25,15 @@
 //         clearInterval(zaman)
 //     }
 // },1000)
-setTimeout(()=>{
-    console.log("sa");
-    setTimeout(()=>{
-        console.log("as");
-        setTimeout(() => {
-            console.log("nbr");
-            setTimeout(() => {
-                console.log("iyidir");
-            }, 1000);
-        }, 1000);
-    },1000)
-},1000)
+// setTimeout(()=>{
+//     console.log("sa");
+//     setTimeout(()=>{
+//         console.log("as");
+//         setTimeout(() => {
+//             console.log("nbr");
+//             setTimeout(() => {
+//                 console.log("iyidir");
+//             }, 1000);
+//         }, 1000);
+//     },1000)
+// },1000)
