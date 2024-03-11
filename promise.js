@@ -4,16 +4,16 @@ const req = new Promise((resolve,reject)=>{
     const basarili = Math.floor(Math.random() * 10)//?0 1 2 3....9
     console.log(basarili);
     if (basarili) {
-        resolve()
-    }else{
+        resolve(veri);
+    } else {
         reject("network hatası olustu")
     }
 })
 req
     .then((res)=>{
-    console.log(res)
-    return res
-})
+        console.log(res);
+        return res;
+    })
     .then((x)=>console.log(x.name))
     .catch((err)=> document.write(err))
-    .finally(()=> console.log("her turlu calisir"))
+    .finally(()=> console.log("her turlu calisir"));
